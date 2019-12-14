@@ -52,7 +52,7 @@ nano ~/.ssh/authorized_keys
 
 ## Installation
 
-`[REMOTE-IPADRESS]` and `[REMOTE_PORT]` should be provided in these script.
+This script should be provided with `[REMOTE-IPADDRESS]` and `[REMOTE_PORT]`.
 
 ### Full installation script: case of `autossh`
 
@@ -174,3 +174,5 @@ sudo lsof -i:10022 | grep IPv4
 ```bash
 ssh client-user@localhost -p 10022
 ```
+
+- Enjoy
